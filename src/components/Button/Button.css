@@ -1,0 +1,61 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-variant-default {
+    padding: 19px 47px;
+    background-color: var(--btn-default);
+    color: var(--txt-default);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn-variant-primary {
+    padding: 19px 47px;
+    background-color: var(--btn-primary);
+    color: var(--txt-primary);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn-variant-download {
+    padding: 12px 42px;
+    background-color: var(--btn-primary);
+    color: var(--txt-primary);
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.download-icon {
+    vertical-align: middle;
+    height: 100%;
+    margin-right: 13px;
+}
+
+.btn-variant-large {
+    padding: 12px;
+    background-color: var(--txt-primary);
+    color: var(--btn-primary);
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.btn-variant-message {
+    padding: 12px;
+    background-color: var(--btn-primary);
+    color: var(--txt-primary);
+    font-size: 20px;
+    border-radius: 8px;
+}

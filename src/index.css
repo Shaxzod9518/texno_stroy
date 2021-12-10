@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+:root {
+    --btn-default: #F0F5FB;
+    --btn-primary: #0D69D7;
+    --txt-default: #1F273E;
+    --txt-primary: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    user-select: none;
+}
